@@ -1,7 +1,7 @@
 App = Ember.Application.create();
 
 App.Store = DS.Store.extend({
-	revision: 11, 
+	revision: 12, 
 	adapter: DS.RESTAdapter.extend({
 		url: 'http://localhost:3000'
 	})
